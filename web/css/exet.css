@@ -1,0 +1,138 @@
+
+* {
+  margin:0 ;
+  padding:0 ;
+}
+
+body{
+    background-color: rgb(255, 115, 0);
+    font-family: serif;
+}
+ul{
+  list-style: none;
+}
+a{
+  text-decoration: none;
+  color: #FFFFFF;
+}
+.conteiner{
+  max-width: 11170px;
+  width: 100%;
+  margin: o auto;
+}
+.header {
+  display: flex;
+  flex-direction: column;
+  background: rgb(0,0,0);
+  background: rgb(0,0,0);
+  background: rgb(135,221,94);
+  background: rgb(67,97,52);
+  background: rgb(63,78,56);
+background: linear-gradient(252deg, rgba(63,78,56,1) 0%, rgba(55,95,18,0.8072655087425595) 96%);
+height: 100vh;
+}
+
+.header .header-social {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 12px 0;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+
+}
+.header .header-social .header-social__item {
+  margin-right:16px;
+}
+
+.header .header-social .header-social__list {
+
+display: flex;
+align-items: center;
+gap: 2;
+}
+
+.header .header-social .header-social__item {
+margin-right: 16px;
+}
+
+.header .header-social .header-social__item a {
+color: #FFFFFF;
+}
+
+.header .header-social .header-social__item a:hover{
+
+color: #0000;
+}
+.header .header-social .header-social__item svg{
+  width: 16px;
+  height: 16px;
+
+}
+
+.header .header-nav{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 32px;
+}
+
+
+.header .header-nav .header-nav__logo img {
+width: 200px;
+}
+.header .header-nav .header-nav__list {
+  display: flex;
+  align-items: center;
+  gap: 36px;
+}
+
+.header .header-nav .header-nav__item .btn{
+  background-color:#FFFFFF;
+  font-weight: 600;
+  font-size: 13.5px;
+  padding: 12px 16px;
+  border-radius: 4px;
+}
+.msg{
+  position: absolute;
+  right: 200px;
+  float: right;
+    margin-left: 20px; 
+    margin-top: 150px;
+}
+.ls{
+  color: #FFFFFF;
+  padding-left: 50px;
+  margin-top: 100px;
+}
+.lt{
+  font-size: 50px;
+  color: #FFFFFF;
+  margin-left: 50px; 
+    margin-top: 20px;
+}
+.lg{
+  font-size: 20px;
+  color: #FFFFFF;
+  margin-left: 50px; 
+    margin-top: 0px;
+}
+.tb{
+  
+  .meu-botao {
+    padding: 10px 20px;
+    font-size: 16px; 
+    background-color: #f1f4f7;
+    color: #0f0f0f; 
+    border: none;
+    border-radius: 5px; 
+    cursor: pointer;
+    margin-left: 45px; 
+    margin-top: 10px;
+  }
+  
+  .meu-botao:hover {
+    background-color: #f8dda6; /* Muda a cor de fundo ao passar o mouse sobre o botão */
+  }
+  
+}
